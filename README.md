@@ -1,6 +1,6 @@
 # jue.yt
 
-**Sorry for my bad English. You are familiar with that language and I did some silly mistakes? Send me a PR and I will own you some beers :)**
+**Sorry for my bad English. You are familiar with that language and I did some silly mistakes? Send me a PR and I will owe you some beers :)**
 
 ## Further instructions for hackers
 
@@ -22,6 +22,7 @@ npm install
 Correct the silly typos and check everything:
 
 ``` sh
+# Generate the page and serve it locally
 hexo generate
 hexo server
 ```
@@ -29,9 +30,14 @@ hexo server
 Everything is fine? Give yourself a tap on the wrist, commit your changes and upload the ```/public``` folder:
 
 ``` sh
+# Commit your changes
 git commit -a -m"Spellman!"
+
+# Merge your changes on master
 git checkout master
 git merge --no-ff -m"Published" develop
+
+# Upload everything
 git push --all -u
 scp -r public/* user@server.net:www/jue.yt
 ```
