@@ -88,8 +88,16 @@ theme_config:
   logo:
     enabled: false
   favicon: false
+  rss: atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true
