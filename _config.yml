@@ -80,6 +80,7 @@ theme_config:
     home: /
     about: /about/
     articles: /archives/
+    Impressum: /impressum/
   social_links:
     github: https://github.com/jue89
     twitter: https://twitter.com/servicecase18
