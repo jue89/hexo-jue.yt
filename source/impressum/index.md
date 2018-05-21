@@ -2,8 +2,6 @@
 title: Impressum
 ---
 
-# Impressum
-
 *Some information required due to German law.
 And if you want to send me a postcard ♥*
 
